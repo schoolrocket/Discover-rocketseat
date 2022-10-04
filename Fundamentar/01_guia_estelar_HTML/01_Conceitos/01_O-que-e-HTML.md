@@ -1,2 +1,0 @@
-Hypertext Markup Language
-HTML
