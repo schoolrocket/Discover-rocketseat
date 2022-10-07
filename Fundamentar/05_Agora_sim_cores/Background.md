@@ -14,3 +14,5 @@
         - o tamanho delas na caixa
 - Usar cor e imagem juntas
 - Usar cor gradiente
+
+..
