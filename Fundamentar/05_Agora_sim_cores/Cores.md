@@ -61,5 +61,3 @@ Podemos definir valores por:
    * Entendendo esses princípios e com a prática, fica cada vez mais fácil entender como aplicar cores no CSS.
 
       ### Referência: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
-
-      ..
