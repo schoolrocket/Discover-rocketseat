@@ -8,7 +8,7 @@
 
 Comentários começam com '/*' e terminam com '*/'.
 
-'''css
+```css
 
 /* Básico */
 /* ---------------------------------------------------------------- */
@@ -46,7 +46,7 @@ div p + p {
 }
 
 
-'''
+```
 * Você poderá usar para desabilitar partes do seu código
 '''css
 

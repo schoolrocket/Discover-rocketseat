@@ -8,26 +8,30 @@
 -  content-box|border-box
 
 💻 Exemplo:
-'''CSS:
+```css
 div {
     box-sizing: border-box;
 }
+```
 
-HTML:
+```html
 <div>
 	CSS é incrível!
 </div>
-CSS:
+```
+
+```css
 div {
    width: 100px; 
    height: 100px;
    border: 1px solid red;
    margin: 10%;
 }
+```
 
 - Quando o padding é adicionado (padding: 0 20px;) faz com que aumente a largura da caixa, deixando de respeitar os 100px de largura:
 
-CSS:
+```css
 div {
    width: 100px; 
    height: 100px;
@@ -35,6 +39,7 @@ div {
    margin: 10%;
    padding: 0 20px;
 }
+```
 
 - E é por isso que é tão importante conhecer a propriedade do box-sizing.
 
@@ -42,7 +47,7 @@ div {
 
 Dessa forma o elemento vai ficar com a largura (width) determinado, que no caso do exemplo citado é de 100px.
 
-CSS:
+```css
 div {
    width: 100px; 
    height: 100px;
@@ -51,6 +56,7 @@ div {
    padding: 0 20px;
    box-sizing: border-box;
 }
+```
 
 - Normalmente usa-se o código abaixo como forma de "resetar" o box-sizing que vem por padrão nos navegadores.
 

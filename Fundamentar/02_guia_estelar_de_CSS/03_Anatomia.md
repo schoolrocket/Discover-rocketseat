@@ -1,13 +1,13 @@
 
 # Anatomia 
 
-'''css
+```css
 h1{
     color: blue;
     font-size: 60px;
     background: gray;
 }
-'''
+```
 
 * Selector 
 * Declaration
@@ -22,12 +22,14 @@ Na verdade, é bem simples, temos o nome de algum elemento, uma chave aberta e u
 
 Toda propriedade é seguida de : (dois pontos) e um valor e um ; (ponto e vírgula) para encerrar essa ideia de valor.
 
-Abaixo um exemplo de CSS:
+```css
 h1 {
 	color: blue;
 	font-size: 60px;
 	background: gray;
 }
+```
+
 Os elementos do CSS são então:
 Selectors: Nesse caso o h1, que vai buscar no HTML a tag h1 e aplicar as mudanças.
 

@@ -13,7 +13,7 @@
 
 - @keyframes    /* Animation */
 
-'''css
+```css
 @import "http://local.com/style.css";
 
 @media (min-width:500px) {
@@ -28,7 +28,7 @@
 
 }
 
-'''
+```
 
 ### Descrição
 

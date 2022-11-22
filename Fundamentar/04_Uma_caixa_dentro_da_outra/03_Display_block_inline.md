@@ -21,12 +21,13 @@ inline: <a> <strong> <span> <em>
 -------------------------------------------------------------------------
 
 💻 Exemplo:
-# HTML:
+```html
 <div>um conteúdo</div>outro conteúdo
+```
 
 width e height são respeitados
 
-# CSS:
+```css
 div {
     height: 100px;
 }
@@ -40,6 +41,7 @@ div {
     padding: 20px;
     border: 1px solid red;
 }
+```
 
 <p> <div> <section>, todos os headings <h1> <h2>...
 
@@ -48,16 +50,18 @@ div {
 Os elementos ficam ao lado do outro e não empurram outros elementos para baixo
 
 💻 Exemplo:
-# HTML:
+```html
 <p>
     Um <strong>texto</strong> qualquer
 </p>    
+```
 
 `width` e `height` não funcionam
 Somente valores horizontais de margin
 
-# CSS:
+```css
 span {
     margin: 10px; /*só aplica na horizontal*/ 
     border: 1px solid green;
 }
+```

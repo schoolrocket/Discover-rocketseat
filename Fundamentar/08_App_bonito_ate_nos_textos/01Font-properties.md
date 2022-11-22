@@ -25,11 +25,11 @@ Algumas das propriedades de fonts do CSS que podem nos ajudar a transmitir uma m
 * Lista de fontes e ordem de prioridade
 * Inclui *fallback* font
 
-'''css
+```css
 p {
     font-family: "Times New Roman", Times, serif;
 }
-'''
+```
     - serif (com serifa)
     - sans-serif (sem serifa)
 
@@ -40,32 +40,32 @@ Valores: normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 600 | 
 Dependendo da família da fonte não conseguimos utilizar todos os pesos de fonte.
 https://www.w3.org/TR/css-fonts-3/
 
-'''css
+```css
 p {
 	font-weight: bold;
 }
-'''
+```
 
 ## Font Style
 
 Valores: normal | italic | oblique
 Os valores que podem ser aplicados dependem da fonte usada
 
-'''css
+```css
 span {
 	font-style: italic;
 }
-'''
+```
 
 ## Font Size
 
 * O tamanho da fonte
 
-'''css
+```css
 p {
 	font-size: 18px;
 }
-'''
+```
 
 ## Web Fonts
 

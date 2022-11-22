@@ -7,7 +7,7 @@ A propriedade padding pode ser escrita como nos formatos apresentados abaixo:
 * padding-top | padding-rigth | padding-bottom | padding-left
 * values: <length> | <percentage> | auto
 
-# CSS
+```css
 div {
     /*shorthand */
     padding: 12px 16px 10px 4px;
@@ -15,7 +15,7 @@ div {
     padding: 8px 16px;
     padding: 8px;
 }
-
+```
                                     * Padding poderá causar diferença na largura de um elemento.
                                     https://developer.mozilla.org/pt-BR/docs/Web/CSS/padding
 

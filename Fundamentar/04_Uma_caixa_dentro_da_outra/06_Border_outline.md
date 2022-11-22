@@ -8,7 +8,7 @@
     - width: <length>
     - color: <color>
 
-# CSS
+```css
 div {
 	/* shorthand */
 	border-top: solid 2px; /* top | right | bottom | left */
@@ -26,6 +26,7 @@ div {
 	border: medium dashed green;
 
 }
+```
 
 E o outline?
 - O outline é muito semelhante ao border, mas difere em 4 sentidos:

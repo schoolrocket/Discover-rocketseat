@@ -11,14 +11,15 @@ Conecta um elemento HTML com o CSS
 * Attribute selector, Pseudo-class, Pseudo-element, e outros
 
 
-### HTML
+```html
 <div id="container" class="m-40">
 	<h1>Título</h1>
 	<h2>Subtitulo</h2>
 </div>
+```
 
 
-### CSS
+```css
 /* ID selector */
 #container {
 	width: 200px;
@@ -35,6 +36,7 @@ h1, h2 {
 	font-size: 60px;
 	background: gray;
 }
+```
 
 ### Descrição 
 
