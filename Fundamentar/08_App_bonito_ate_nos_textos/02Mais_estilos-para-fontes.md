@@ -112,3 +112,14 @@ p {
 
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+
+## Shorthand 
+
+* font-style, font-variant, font-weight, font-stretch, font-size, line-height e font-family.
+
+```css
+p {
+	/* -style, -variant, weigth, -stretch, -size, line-height e -family. */
+	font: italic bold normal 3em/1.5 Helvetica, Arial, sans-serif;
+}
+```
