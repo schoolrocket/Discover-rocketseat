@@ -13,8 +13,15 @@
     - aria-label
 
 -->
+<datalist id="searchterms">
+    <option>Mac</option>
+    <option>Win</option>
+    <option>Linux</option>
+</datalist>
 
-<form action="">
+
+<!-- PATTERN -->
+<!-- <form action="">
     <label for="">Pesquisar pelo ID</label>
     <input type="search" name="id"
     size="5"
@@ -22,4 +29,15 @@
     title="Digite o número do ID: 00"
     >
     <button>Pesquisar</button>
+</form> -->
+
+
+<!-- ARIA LABEL -->
+<form action="">
+    <label for="">Pesquisa</label>
+    <input type="search" name="q" list="searchterms"
+    placeholder="Digite seu termo de busca"
+    size="28"
+    aria-label="Campo de pesquisa: Digite seu termo de busca">
+    <button>Search</button>
 </form>
