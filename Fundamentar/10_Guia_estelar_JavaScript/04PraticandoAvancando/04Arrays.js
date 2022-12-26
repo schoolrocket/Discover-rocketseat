@@ -10,4 +10,4 @@ const animals = [
 ]
 
 // Acessar valores dentro do Array
-console.log(animals[1])
+console.log(animals[2])
